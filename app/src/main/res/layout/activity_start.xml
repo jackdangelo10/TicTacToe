@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="@color/gray_background"
+    android:fontFamily="@font/poppins_regular">
+
+    <!-- Game Title -->
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tic_tac_toe_title"
+        android:textSize="32sp"
+        android:textColor="@color/primary_text_color"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="24dp" />
+
+    <!-- Instructions -->
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_who_starts"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text_color"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Button for Human Starts -->
+    <Button
+        android:id="@+id/button_human"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/human_starts"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_button"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button for Machine Starts -->
+    <Button
+        android:id="@+id/button_machine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/machine_starts"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_button"
+        android:padding="12dp" />
+</LinearLayout>

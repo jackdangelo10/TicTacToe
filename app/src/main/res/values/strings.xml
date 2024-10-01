@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="tic_tac_toe_title">Tic Tac Toe</string>
+    <string name="choose_who_starts">Choose who starts:</string>
+    <string name="human_starts">Human Starts</string>
+    <string name="machine_starts">Machine Starts</string>
+</resources>
